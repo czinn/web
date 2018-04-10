@@ -1,0 +1,146 @@
+/**
+ * Reset some basic elements
+ */
+body,
+ul, ol, blockquote, pre, code, figure, table, tbody, tr, td {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: $font-weight $font-size $font-family;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $background-color;
+  font-kerning: normal;
+  overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: $font-weight;
+}
+
+h1 {
+  font-size: 1.618em;
+  line-height: 1.8542em;
+  margin-top: 0.9271em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 1.0em;
+  line-height: 2.0em;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+/*margin-top: 1.2em;*/
+}
+
+h4 {
+  font-size: 0.875em;
+  line-height: 1.7143em;
+  margin-top: 1.7143em;
+}
+
+p {
+  margin: 0 0 $line-height 0;
+}
+.small {
+  vertical-align: top;
+  font-size: 0.875em;
+  line-height: 1.7143em;
+  margin-bottom: 1.7143em;
+}
+
+a {
+  color: $main-color-light;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  padding: 0 $spacing-unit;
+  border-left: 1px solid $main-color;
+}
+
+pre, code {
+  vertical-align: top;
+  position: relative;
+  top: 1px;
+}
+
+pre, ul, table {
+  padding: 0 $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: $spacing-unit/2 $spacing-unit;
+}
+
+ul ul {
+  margin: 0;
+}
+
+code {
+  color: $main-color;
+}
+
+ul.compact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  li {
+    margin-left: 1em;
+    list-style-type: none;
+  }
+}
+
+img {
+  display: block;
+  height: 6em;
+  width: auto;
+  margin: 0 auto;
+}
+
+img.md {
+  height: 9em;
+}
+
+img.lg {
+  height: 12em;
+}
+
+sup {
+  line-height: 0;
+}
+
+.spoiler {
+  background-color: black;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+}

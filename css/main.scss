@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+// Variables
+$font-family: "Palatino Linotype", Palatino, serif;
+$font-size: 16px;
+$font-weight: 400;
+$line-height: 1.5em;
+
+$spacing-unit: 24px;
+$content-width: 33em;
+
+$text-color: #111;
+$background-color: #fdfdfd;
+$main-color: #003499;
+$main-color-dark: #002366;
+$main-color-light: #0045cc;
+
+
+// Import partials
+@import
+  "base",
+  "layout",
+  "syntax-highlighting"
+;

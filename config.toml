@@ -1,0 +1,9 @@
+baseURL = "http://charleszinn.ca/"
+languageCode = "en-us"
+title = "Charles Zinn"
+date = "2018-04-02"
+footnoteReturnLinkContents = "↩"
+
+[params]
+  description = "Personal website of a software engineering student at the University of Waterloo."
+  email = "charles.zinn@gmail.com"

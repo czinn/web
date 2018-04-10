@@ -1,0 +1,27 @@
+<article>
+
+  <header>
+    <h1 class="page-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+
+    <p class="small">
+      {{ .Date.Format "January 2, 2006" }}
+    </p>
+  </header>
+
+  {{ .Content }}
+
+  <p class="page-links">
+    <span class="page-previous">
+      {{ if .PrevInSection }}
+      <a href="{{ .PrevInSection.URL }}">&larr; {{ .PrevInSection.Title }}</a>
+      {{ end }}
+    </span><span class="page-next">
+      {{ if .NextInSection }}
+      <a href="{{ .NextInSection.URL }}">{{ .NextInSection.Title }} &rarr;</a>
+      {{ end }}
+    </span>
+  </p>
+
+</article>

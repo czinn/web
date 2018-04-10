@@ -1,0 +1,5 @@
+{{ partial "header" . }}
+{{ $sectionPages := where .Site.RegularPages "Section" .Section }}
+{{ $page := index $sectionPages 0 }}
+{{ partial "post" $page }}
+{{ partial "footer" . }}

@@ -1,0 +1,94 @@
+/**
+ * Site header
+ */
+
+$break-small: 370px;
+
+.site-header {
+  border-top: 5px solid $main-color;
+  padding-top: 18px;
+  border-bottom: 1px solid $main-color;
+  min-height: 3 * $spacing-unit;
+  box-sizing: border-box;
+
+  nav {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+    float: right;
+
+    @media screen and (max-width: $break-small) {
+      clear: both;
+      float: none;
+      margin-bottom: $spacing-unit;
+      padding: 0;
+    }
+
+    a {
+      margin-left: 0.25em;
+    }
+  }
+  margin-bottom: $spacing-unit;
+}
+
+.site-title {
+  float: left;
+  display: block;
+  font-size: 1.618em;
+  color: $main-color;
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $main-color;
+  padding: ($spacing-unit - 1px) 0 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.big-wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: (8 * $spacing-unit);
+  box-sizing: border-box;
+}
+
+/**
+ * Page content
+ */
+
+/*
+Tags currently disabled because coming up with tags is hard.
+.tags {
+  float: right;
+}
+*/
+
+.page-previous {
+  width: 50%;
+  display: inline-block;
+}
+
+.page-next {
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+}
+
+.footnotes {
+  border-top: 1px solid $main-color;
+  margin-bottom: -1px;
+  padding-top: $spacing-unit;
+  hr {
+    display: none;
+  }
+  li {
+    margin-bottom: $spacing-unit;
+  }
+}
