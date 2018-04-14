@@ -102,19 +102,19 @@ The word `ro` (all) was mentioned in the last section, but I didn't give many ex
 
 ## Logical Connectives
 
-The Lojban connectives are `je` (and), `ja` (or), and `jo` (if and only if)[^ju]. You can stick `na` before or `nai` after to negate the corresponding operand.
+Lojban has several different logical connectives for different parts of speech. Here, we'll use `gi'e` (and), `gi'a` (or), and `gi'o` (if and only if)[^gihu]. You can stick `na` before or `nai` after to negate the corresponding operand.
 
-[^ju]: There's also `ju` (whether or not), but it's not useful in this context.
+[^gihu]: There's also `gi'u` (whether or not), but it's not useful in this context.
 
  | 
 ---|---
-`da sraji je blanu` | "there is an upright blue pyramid"
-`da sraji ja blanu` | "there is a pyramid that is upright or blue (or both)"
-`da sraji na ja nai blanu` | "there is a pyramid that is neither upright nor blue"
-`da sraji jo blanu` | "there is an upright blue pyramid or a non-upright non-blue pyramid"
-`ro da sraji jo blanu` | "pyramids are upright if and only if they are blue"
+`da sraji gi'e blanu` | "there is an upright blue pyramid"
+`da sraji gi'a blanu` | "there is a pyramid that is upright or blue (or both)"
+`da sraji na gi'a nai blanu` | "there is a pyramid that is neither upright nor blue"
+`da sraji gi'o blanu` | "there is an upright blue pyramid or a non-upright non-blue pyramid"
+`ro da sraji gi'o blanu` | "pyramids are upright if and only if they are blue"
 `barda` | "x1 is large"
-`ro da barda na ja xunre` | "pyramids are not large or are red"<br>"if a pyramid is large, then it is also red"
+`ro da barda na gi'a xunre` | "pyramids are not large or are red"<br>"if a pyramid is large, then it is also red"
 
 Note that the last example could be expressed with a relative clause as well:
 
@@ -122,7 +122,7 @@ Note that the last example could be expressed with a relative clause as well:
 ---|---
 `ro da poi barda ku'o xunre` | "all large pyramids are red"
 
-You can connect multiple phrases together using `.i` followed by the desired connective.
+You can connect multiple phrases together using `.i` followed by `je` (and), `ja` (or), or `jo` (if and only if). Note that the final vowel is the same as before for each connective.
 
  | 
 ---|---
@@ -132,8 +132,8 @@ If there are two or more logical connectives, they are evaluated using left-asso
 
  | 
 ---|---
-`ro da blanu ja xunre je barda` | "all pyramids are blue or red, and are large"
-`ro da blanu je barda ja xunre` | "all pyramids are blue and large, or are red"
+`ro da blanu gi'a xunre gi'e barda` | "all pyramids are blue or red, and are large"
+`ro da blanu gi'e barda gi'a xunre` | "all pyramids are blue and large, or are red"
 
 ## Comparisons
 
@@ -165,7 +165,7 @@ Here's a big list of Lojban words for constructing Zendo rules.
 **Colours** | `blanu`: x1 is blue<br>`crino`: x1 is green<br>`pelxu`: x1 is yellow<br>`xunre`: x1 is red<br>`skari`: x1 is of colour x2
 **Position** | `cpana`: x1 is on x2<br>`gapru`: x1 is above x2<br>`cnita`: x1 is beneath x2<br>`pencu`: x1 touches x2<br>`farsni`: x1 points at x2<br>`galtu`: x1 is high up<br>`dizlo`: x1 is low down
 **Orientation** | `sraji`: x1 is vertical/upright<br>`pinta`: x1 is horizontal/flat
-**Logic** | `je`: and, `ja`: or, `jo`: if and only if
+**Logic** | `gi'e`/`je`: and<br>`gi'a`/`ja`: or<br>`gi'o`/`jo`: if and only if
 **Other Words** | `da`, `de`, `di`: existential variables (X, Y, Z)<br>`poi`: relative clause ("which")<br>`ku'o`: terminates a relative clause<br>`se`: swaps x1 and x2
 
 ## Sample Rules
@@ -175,8 +175,8 @@ See if you can figure out the meaning of these rules! Mouse over or tap the blac
  | 
 ---|---
 `su'o re da pelxu` | <span class="spoiler">"there are at least two yellow pyramids"</span>
-`re da blanu ja cmalu` | <span class="spoiler">"there are exactly two pyramids which are blue or small"</span>
-`no da norbra je crino` | <span class="spoiler">"there are no medium green pyramids"</span>
+`re da blanu gi'a cmalu` | <span class="spoiler">"there are exactly two pyramids which are blue or small"</span>
+`no da norbra gi'e crino` | <span class="spoiler">"there are no medium green pyramids"</span>
 `da se skari su'o re de` | <span class="spoiler">"there are at least two pyramids of the same colour"</span>
 `ci da barna de poi xunre` | <span class="spoiler">"there are exactly three spots on red pyramids"</span>
 `pa da nilbra ro de poi sraji` | <span class="spoiler">"all upright pieces are the same size"</span>
