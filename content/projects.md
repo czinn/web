@@ -8,6 +8,10 @@ A small selection of projects I've done over the years. You can see a more compl
 
 In addition to working on various projects, I solve problems on [Project Euler][pe]. At the time of writing, I am 11th in Canada and 1064th worldwide.
 
+## Zendo
+
+I wrote a program that is able to evaluate Zendo rules in Lojban. Read my [blog post](/blog/evaluating-zendo-rules/) about the project and then try playing the game. The code is on [GitHub][zendo].
+
 ## Tableflip
 
 Tableflip is a platform for playing board games (or any other sort of turn-based game) online. The client is Vue.js and the server is a Flask app using SQLAlchemy and Postgres. Games are implemented as state machines with the rules specified in JavaScript, which allows more games to be easily added. Tableflip currently supports six games: Connect 4, Quarto, Hanabi, Euchre, Love Letter, and Homeworlds.
@@ -26,14 +30,6 @@ I made Fortuit with [neynt](http://neynt.ca/) at PennApps Winter 2015. Fortuit w
 
 Try using [Fortuit][tryfortuit]! You can test out the friends feature by adding **charles**. You can also view the source code in the [Fortuit GitHub repo][fortuit].
 
-## Mafia
-
-Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all villagers. The villagers can vote to lynch people, but they risk lynching one of their own number. Some villagers have special powers. When played in real life, a game master is required to faciliate interactions, and they can't play in the game themselves.
-
-I created a simple, minimalistic web app that takes the place of a game master. There are existing websites that do this, but they overcomplicate things with variations and accounts. Plus, it was a fun way to play with AngularJS and Socket.io.
-
-You can view the source code in the [Mafia GitHub repo][mafia].
-
 ## Depnunkei
 
 The computer science club at my high school ran a two-week long idle game challenge. An idle game is a game in which most of your time is spent waiting; a perfect example is Cookie Clicker.
@@ -49,6 +45,7 @@ Condi was my entry to a casual 7DRL (7-day roguelike) among some friends. Condi 
 You can view the source code in the [Condi GitHub repo][condi].
 
 [pe]: https://projecteuler.net/progress=semicolon7
+[zendo]: https://github.com/czinn/zendoeval
 [playtableflip]: https://tableflip.semicolon.ca
 [tableflip]: https://github.com/neynt/tableflip
 [dice]: https://github.com/czinn/liars-dice
