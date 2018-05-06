@@ -5,24 +5,16 @@
   <h1>Archive</h1>
 
   {{ $sectionPages := where .Site.RegularPages.ByDate "Section" "blog" }}
-  {{ range $sectionPages }}
-  {{ if .PrevInSection }}
-    {{ $curMonth := .Date.Format "January 2006" }}
-    {{ $lastMonth := .PrevInSection.Date.Format "January 2006" }}
-    {{ if ne $curMonth $lastMonth }}
-      </ul>
-      <h2>{{ .Date.Format "January 2006" }}</h2>
-      <ul>
-    {{ end }}
-  {{ else }}
-    <h2>{{ .Date.Format "January 2006" }}</h2>
+  {{ range $sectionPages.GroupByDate "2006" }}
+    <h2>{{ .Key }}</h2>
     <ul>
-  {{ end }}
+    {{ range .Pages }}
     <li>
       <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
+  {{ end }}
 
 </article>
 

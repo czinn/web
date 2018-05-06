@@ -77,7 +77,7 @@ pre, code {
   top: 1px;
 }
 
-pre, ul, table {
+pre, ul, ol, table {
   padding: 0 $spacing-unit;
   margin-bottom: $spacing-unit;
 }
@@ -91,7 +91,7 @@ td {
   padding: $spacing-unit/2 $spacing-unit;
 }
 
-ul ul {
+ul ul, ol ol {
   margin: 0;
 }
 
@@ -99,7 +99,7 @@ code {
   color: $main-color;
 }
 
-ul.compact {
+ul.compact, ol.compact {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -125,7 +125,7 @@ img.lg {
   height: 12em;
 }
 
-sup {
+sup, sub {
   line-height: 0;
 }
 

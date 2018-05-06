@@ -1,7 +1,7 @@
 baseURL = "http://charleszinn.ca/"
 languageCode = "en-us"
 title = "Charles Zinn"
-date = "2018-04-02"
+date = "2018-05-06"
 footnoteReturnLinkContents = "↩"
 
 [params]

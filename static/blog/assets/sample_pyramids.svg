@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="144">
+  <path d="M10 135h80l-40 -100z" stroke="#000" stroke-width="2" fill="#FFFF00AA" />
+  <path d="M20 85h60l-30 -75z" stroke="#000" stroke-width="2" fill="#FF0000AA" />
+  <path d="M70 185h40l-20 -50z" transform="rotate(-111.8,90,135)" stroke="#000" stroke-width="2" fill="#FF0000AA" />
+  <path d="M200 135h80l-40 -100z" stroke="#000" stroke-width="2" fill="#0000FFAA" />
+  <path d="M220 60h40l-20 -50z" stroke="#000" stroke-width="2" fill="#00FF00AA" />
+  <path d="M280 135h60l-30 -75z" stroke="#000" stroke-width="2" fill="#FFFF00AA" />
+</svg>

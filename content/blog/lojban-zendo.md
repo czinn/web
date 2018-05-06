@@ -31,9 +31,9 @@ I'm going to briefly cover the parts of the language relevant to constructing Ze
 
 ## Logical Quantified Existential Variables
 
-The most important word for Zendo rules is `da`. It means "there is *at least one* thing you can substitute here such that the sentence is true". Together with the word `xunre`, which means "x1 is red"[^places], we can write the simplest possible rule:
+The most important word for Zendo rules is `da`. It means "there is *at least one* thing you can substitute here such that the sentence is true". Together with the word `xunre`, which means "x<sub>1</sub> is red"[^places], we can write the simplest possible rule:
 
-[^places]: Verbs[^verbs] in Lojban (and yes, red is a verb) have places (denoted `x1`, `x2`...) which are filled by nouns. Word order determines which nouns go in which places.
+[^places]: Verbs[^verbs] in Lojban (and yes, red is a verb) have places (denoted x<sub>1</sub>, x<sub>2</sub>...) which are filled by nouns. Word order determines which nouns go in which places.
 
 [^verbs]: The actual term for a Lojban "verb" is `selbri`, which means (roughly) "predicate relationship".
 
@@ -59,12 +59,12 @@ The words `de` and `di` are the same as `da`, but represent different variables.
 
  | 
 ---|---
-`farsni` | "x1 points at x2"
+`farsni` | "x<sub>1</sub> points at x<sub>2</sub>"
 `da farsni de` | "there is a pyramid pointing at another pyramid"
 `no da farsni su'o re de` | "there is no pyramid that points at two or more pyramids"
 `da farsni re de` | "there is a pyramid that points at exactly two pyramids"
 
-The meaning can change if variables are introduced in a different order. To do this, `se farsni` is used, which means "x1 is pointed at by x2" (`se` swaps the first and second places).
+The meaning can change if variables are introduced in a different order. To do this, `se farsni` is used, which means "x<sub>1</sub> is pointed at by x<sub>2</sub>" (`se` swaps the first and second places).
 
  | 
 ---|---
@@ -93,11 +93,11 @@ The word `ro` (all) was mentioned in the last section, but I didn't give many ex
 
  | 
 ---|---
-`blanu` | "x1 is blue"
-`sraji` | "x1 is upright"
+`blanu` | "x<sub>1</sub> is blue"
+`sraji` | "x<sub>1</sub> is upright"
 `ro da poi blanu ku'o sraji` | "all blue pyramids are upright"
 `ro da poi farsni de ku'o xunre` | "all pyramids which point at another pyramid are red"
-`pencu` | "x1 touches x2"
+`pencu` | "x<sub>1</sub> touches x<sub>2</sub>"
 `da pencu de poi farsni pa di` | "there is a pyramid touching a pyramid that points at exactly one pyramid"
 
 ## Logical Connectives
@@ -110,10 +110,10 @@ Lojban has several different logical connectives for different parts of speech. 
 ---|---
 `da sraji gi'e blanu` | "there is an upright blue pyramid"
 `da sraji gi'a blanu` | "there is a pyramid that is upright or blue (or both)"
-`da sraji na gi'a nai blanu` | "there is a pyramid that is neither upright nor blue"
+`da sraji na gi'e nai blanu` | "there is a pyramid that is neither upright nor blue"
 `da sraji gi'o blanu` | "there is an upright blue pyramid or a non-upright non-blue pyramid"
 `ro da sraji gi'o blanu` | "pyramids are upright if and only if they are blue"
-`barda` | "x1 is large"
+`barda` | "x<sub>1</sub> is large"
 `ro da barda na gi'a xunre` | "pyramids are not large or are red"<br>"if a pyramid is large, then it is also red"
 
 Note that the last example could be expressed with a relative clause as well:
@@ -137,7 +137,7 @@ If there are two or more logical connectives, they are evaluated using left-asso
 
 ## Comparisons
 
-The word `zmadu` means "x1 is greater than x2 in property x3". To create a property to fill the third spot, `lo ka` (which means "the property of") is used along with a subphrase. The most common property in a comparison is `lo ka barda` (the property of bigness).
+The word `zmadu` means "x<sub>1</sub> is greater than x<sub>2</sub> in property x<sub>3</sub>". To create a property to fill the third spot, `lo ka` (which means "the property of") is used along with a subphrase. The most common property in a comparison is `lo ka barda` (the property of bigness).
 
  | 
 ---|---
@@ -145,11 +145,11 @@ The word `zmadu` means "x1 is greater than x2 in property x3". To create a prope
 `da poi xunre zmadu de poi blanu ku'o lo ka barda` | "there is a red pyramid bigger than a blue pyramid"
 `da poi xunre zmadu ro de poi blanu ku'o lo ka barda` | "there is a red pyramid bigger than all blue pyramids (if any)"
 
-Another useful word that takes a property is `traji`, which means "x1 is the most x2".
+Another useful word that takes a property is `traji`, which means "x<sub>1</sub> is the most x<sub>2</sub>".
 
  | 
 ---|---
-`galtu` | "x1 is high up"
+`galtu` | "x<sub>1</sub> is high up"
 `da poi traji lo ka galtu ku'o xunre` | "the highest pyramid is red"
 
 ## Vocabulary
@@ -158,15 +158,15 @@ Here's a big list of Lojban words for constructing Zendo rules.
 
  | 
 ---|---
-**Things** | `pirmidi`: x1 is a pyramid<br>`barna`: x1 is a spot on x2<br>`kamju`: x1 is a column/stack<br>`lo loldi`: the floor/ground
+**Things** | `pirmidi`: x<sub>1</sub> is a pyramid<br>`barna`: x<sub>1</sub> is a spot on x<sub>2</sub><br>`kamju`: x<sub>1</sub> is a column/stack<br>`lo loldi`: the floor/ground
 **Numbers** | `no`: 0, `pa`: 1, `re`: 2, `ci`: 3, `vo`: 4<br>`mu`: 5, `xa`: 6, `ze`: 7, `bi`: 8, `so`: 9<br>`pano`: 10, `su'o`: at least [one], `ro`: all
-**Sizes** | `barda`: x1 is large<br>`norbra`: x1 is medium<br>`cmalu`: x1 is small<br>`nilbra`: x1 is the size of x2
-**Comparison** | `zmadu`: x1 is greater than x2 in property x3<br>`mleca`: x1 is less than x2 in property x3<br>`traji`: x1 is the most x2
-**Colours** | `blanu`: x1 is blue<br>`crino`: x1 is green<br>`pelxu`: x1 is yellow<br>`xunre`: x1 is red<br>`skari`: x1 is of colour x2
-**Position** | `cpana`: x1 is on x2<br>`gapru`: x1 is above x2<br>`cnita`: x1 is beneath x2<br>`pencu`: x1 touches x2<br>`farsni`: x1 points at x2<br>`galtu`: x1 is high up<br>`dizlo`: x1 is low down
-**Orientation** | `sraji`: x1 is vertical/upright<br>`pinta`: x1 is horizontal/flat
+**Sizes** | `barda`: x<sub>1</sub> is large<br>`norbra`: x<sub>1</sub> is medium<br>`cmalu`: x<sub>1</sub> is small<br>`nilbra`: x<sub>1</sub> is the size of x<sub>2</sub>
+**Comparison** | `zmadu`: x<sub>1</sub> is greater than x<sub>2</sub> in property x<sub>3</sub><br>`mleca`: x<sub>1</sub> is less than x<sub>2</sub> in property x<sub>3</sub><br>`traji`: x<sub>1</sub> is the most x<sub>2</sub>
+**Colours** | `blanu`: x<sub>1</sub> is blue<br>`crino`: x<sub>1</sub> is green<br>`pelxu`: x<sub>1</sub> is yellow<br>`xunre`: x<sub>1</sub> is red<br>`skari`: x<sub>1</sub> is of colour x<sub>2</sub>
+**Position** | `cpana`: x<sub>1</sub> is on x<sub>2</sub><br>`gapru`: x<sub>1</sub> is above x<sub>2</sub><br>`cnita`: x<sub>1</sub> is beneath x<sub>2</sub><br>`pencu`: x<sub>1</sub> touches x<sub>2</sub><br>`farsni`: x<sub>1</sub> points at x<sub>2</sub><br>`galtu`: x<sub>1</sub> is high up<br>`dizlo`: x<sub>1</sub> is low down
+**Orientation** | `sraji`: x<sub>1</sub> is vertical/upright<br>`pinta`: x<sub>1</sub> is horizontal/flat
 **Logic** | `gi'e`/`je`: and<br>`gi'a`/`ja`: or<br>`gi'o`/`jo`: if and only if
-**Other Words** | `da`, `de`, `di`: existential variables (X, Y, Z)<br>`poi`: relative clause ("which")<br>`ku'o`: terminates a relative clause<br>`se`: swaps x1 and x2
+**Other Words** | `da`, `de`, `di`: existential variables (X, Y, Z)<br>`poi`: relative clause ("which")<br>`ku'o`: terminates a relative clause<br>`se`: swaps x<sub>1</sub> and x<sub>2</sub>
 
 ## Sample Rules
 
