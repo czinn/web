@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="310" height="192">
-  <path d="M120 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FFAA" />
-  <path d="M100 171h80l-40 -100z" stroke="#000" stroke-width="2" fill="#0000FFAA" />
-  <path d="M110 121h60l-30 -75z" stroke="#000" stroke-width="2" fill="#00FF00AA" />
-  <path d="M120 71h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000AA" />
-  <path d="M180 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000AA" />
-  <path d="M180 146h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FFAA" />
-  <path d="M180 121h40l-20 -50z" stroke="#000" stroke-width="2" fill="#00FF00AA" />
-  <path d="M170 121h60l-30 -75z" stroke="#000" stroke-width="2" fill="#FFFF00AA" />
-  <path d="M160 171h60l-30 -75z" transform="rotate(111.8,220,171)" stroke="#000" stroke-width="2" fill="#FFFF00AA" />
-  <path d="M60 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000AA" />
-  <path d="M60 146h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FFAA" />
-  <path d="M50 146h60l-30 -75z" stroke="#000" stroke-width="2" fill="#00FF00AA" />
-  <path d="M60 171h40l-20 -50z" transform="rotate(-111.8,60,171)" stroke="#000" stroke-width="2" fill="#FFFF00AA" />
+  <path d="M120 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FF" fill-opacity="0.66" />
+  <path d="M100 171h80l-40 -100z" stroke="#000" stroke-width="2" fill="#0000FF" fill-opacity="0.66" />
+  <path d="M110 121h60l-30 -75z" stroke="#000" stroke-width="2" fill="#00FF00" fill-opacity="0.66" />
+  <path d="M120 71h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000" fill-opacity="0.66" />
+  <path d="M180 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000" fill-opacity="0.66" />
+  <path d="M180 146h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FF" fill-opacity="0.66" />
+  <path d="M180 121h40l-20 -50z" stroke="#000" stroke-width="2" fill="#00FF00" fill-opacity="0.66" />
+  <path d="M170 121h60l-30 -75z" stroke="#000" stroke-width="2" fill="#FFFF00" fill-opacity="0.66" />
+  <path d="M160 171h60l-30 -75z" transform="rotate(111.8,220,171)" stroke="#000" stroke-width="2" fill="#FFFF00" fill-opacity="0.66" />
+  <path d="M60 171h40l-20 -50z" stroke="#000" stroke-width="2" fill="#FF0000" fill-opacity="0.66" />
+  <path d="M60 146h40l-20 -50z" stroke="#000" stroke-width="2" fill="#0000FF" fill-opacity="0.66" />
+  <path d="M50 146h60l-30 -75z" stroke="#000" stroke-width="2" fill="#00FF00" fill-opacity="0.66" />
+  <path d="M60 171h40l-20 -50z" transform="rotate(-111.8,60,171)" stroke="#000" stroke-width="2" fill="#FFFF00" fill-opacity="0.66" />
 </svg>
