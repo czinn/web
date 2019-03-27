@@ -42,6 +42,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Ludovico Einaudi
 <li>Marianas Trench
 <li>Midlake
+<li>Mumford & Sons
 <li>Nightwish
 <li>Of Monsters and Men
 <li>OK Go
