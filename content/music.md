@@ -9,24 +9,29 @@ When I get asked what sort of music I listen to, I find it hard to summarize my 
 The genres are something like alternative, indie, pop, folk, and a bit of metal and other stuff.
 
 <ul class="compact">
+<li>Alice Merton
 <li>American Authors
 <li>Austin Plaine
 <li>Bastille
+<li>Birdtalker
 <li>Birdy
 <li>Bon Iver
 <li>The Clockwork Dolls
+<li>Courtney Barnett
+<li>Daughter
+<li>Dear Rouge
 <li>Death Cab for Cutie
 <li>Dragonforce
 <li>Dry The River
 <li>The East Pointers
 <li>Eliza Doolittle
-<li>Evanescence
 <li>Enya
+<li>Evanescence
 <li>First Aid Kit
 <li>Fleet Foxes
 <li>Florence + The Machine
 <li>Frightened Rabbit
-<li>Fun
+<li>Fun.
 <li>Greg Laswell
 <li>Halsey
 <li>He Is We
@@ -36,6 +41,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Jan Morgenstern
 <li>Kajto
 <li>The Killers
+<li>Kishi Bashi
 <li>Laura Veirs
 <li>Lorde
 <li>Low Roar
@@ -51,6 +57,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Persone
 <li>Queen
 <li>Radical Face
+<li>Rae Morris
 <li>Rise Against
 <li>Rogue Valley
 <li>Roo Panes
@@ -58,6 +65,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Sarah Jaffe
 <li>Sigur Rós
 <li>Simon Swerwer
+<li>Stan Rogers
 <li>The Staves
 <li>Thomas Bergersen
 <li>Two Steps from Hell
