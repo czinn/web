@@ -12,7 +12,8 @@ case $1 in
     minify -aro out public
     ;;
   s | server)
-    hugo server &
+    shift
+    hugo server $@ &
     wt watch -I css css/main.scss -s compressed -b static/css
     ;;
 esac

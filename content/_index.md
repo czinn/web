@@ -2,15 +2,11 @@
 date: "2018-04-01"
 ---
 
-I'm a software engineering student at the University of Waterloo. You can email me at [charles@zinn.ca][email].
+Hi! I'm Charles. I studied software engineering at the University of Waterloo and now work in New York[^covid]. You can email me at [charles@zinn.ca][email].
 
-I like learning conlangs:
+I very occasionally write stuff on my [blog].
 
-- Mi parolas **Esperanto**n plej flue el ĉi tiaj lingvoj.
-- .i mi di'a tadni la **.lojban.** noi banli
-- tenpo lili la mi kama sona e **toki pona**.
-
-I write stuff. Or I'm starting to write stuff, at least. Check out my [blog].
+[^covid]: By "in New York" I currently mean "in my bedroom in my apartment in New Jersey, for a company based in New York".
 
 [blog]: /blog
 [email]: mailto:charles@zinn.ca
