@@ -5,5 +5,8 @@ date = "2018-05-06"
 footnoteReturnLinkContents = "↩"
 
 [params]
-  description = "Personal website of a software engineering student at the University of Waterloo."
+  description = "Personal website of a software engineer."
   email = "charles.zinn@gmail.com"
+
+[markup.goldmark.renderer]
+unsafe = true

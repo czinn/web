@@ -7,7 +7,7 @@
   <meta name="description" content="{{ if .Page.Description }}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
-  <link rel="canonical" href="{{ replace .Page.URL "index.html" "" | absURL }}">
+  <link rel="canonical" href="{{ .Page.Permalink }}">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "/feed.xml" | absURL }}">
   <link rel="icon" href="{{ "/favicon.png" | absURL }}">
   {{ if .Page.Data.Mathjax }}

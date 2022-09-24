@@ -8,7 +8,6 @@ case $1 in
     wt compile -I css css/main.scss -s compressed -b static/css
     hugo
     rm -r out
-    cp -r public out
     minify -aro out public
     ;;
   s | server)

@@ -5,10 +5,10 @@ date: "2021-01-11"
 
 Making predictions for the year seems like a good beginning-of-the-year tradition, so I'm trying it out. My evaluation criterion for these predictions will be their [Brier score](https://en.wikipedia.org/wiki/Brier_score), where I interpret the score roughly as follows:
 
-- > 0.25: Bad (worse than predicting 50% for everything)
+- \> 0.25: Bad (worse than predicting 50% for everything)
 - 0.20-0.25: Okay
 - 0.15-0.20: Good
-- < 0.15: Excellent! (my expected score if all these predictions are perfectly calibrated is about 0.17)
+- \< 0.15: Excellent! (my expected score if all these predictions are perfectly calibrated is about 0.17)
 
 # COVID-19
 
@@ -50,10 +50,10 @@ Making predictions for the year seems like a good beginning-of-the-year traditio
 - I run 5km in less than 28 minutes[^pace]: 60%
   - ...in less than 25 minutes: 25%
 - I solve a Rubik's cube in less than 10 seconds[^cube]: 60%
-- [Redacted 1]: 60%
-- [Redacted 2]: 40%
-- [Redacted 3]: 20%
-- [Redacted 4]: 5%
+- \[Redacted 1\]: 60%
+- \[Redacted 2\]: 40%
+- \[Redacted 3\]: 20%
+- \[Redacted 4\]: 5%
 
 [^pace]: I did run 5k in 28 minutes in 2018, but I haven't been running recently.
 [^cube]: My current best is 10.687.
